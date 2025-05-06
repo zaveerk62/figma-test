@@ -9,13 +9,13 @@ const Season = () => {
       <h2 className='text-center font-black font-montserrat uppercase text-3xl'>
         in season now
       </h2>
-      <p className='text-center font-montserrat text-lg w-[800px] mx-auto mt-4'>
+      <p className='text-center font-montserrat text-lg w-[400px] lg:w-[800px] mx-auto mt-4'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est in fugiat
         perferendis cupiditate adipisci non laboriosam praesentium eum quos
         debitis!
       </p>
       <div className='container mx-auto'>
-        <div className='flex mt-8 border-b-[0.5px] pb-12 border-[#505050]/20'>
+        <div className='flex flex-col lg:flex-row mt-8 border-b-[0.5px] pb-12 border-[#505050]/20'>
           <div className='flex flex-col gap-4 items-center justify-center text-center'>
             <img src={cranberries} alt='cranberries' className='' />
 

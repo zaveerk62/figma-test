@@ -21,10 +21,10 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className='py-16 lg:py-20 relative lg:h-[350px]'>
+    <footer className='mt-60 lg:mt-0 py-16 lg:py-20 relative lg:h-[350px]'>
       <img src={footerImg} className='size-full -z-10 absolute bottom-0' alt="" />
-      <div className="container mx-auto">
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-96 items-end'>
+      <div className="container mx-auto px-4 lg:px-0">
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-96 items-end'>
         <div>
           <h3 className='font-lilita text-[50px] text-white'>LOGO</h3>
           <div className='font-montserrat text-lg text-white uppercase flex flex-col gap-4 mt-4'>

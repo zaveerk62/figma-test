@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 
+body, html {
+  overflow-x: hidden;
+}
+
+
 @layer base {
 
   .h2-subheading {

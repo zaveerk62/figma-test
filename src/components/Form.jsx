@@ -3,12 +3,12 @@ import React from 'react';
 const Form = () => {
   return (
     <div className='container mx-auto'>
-      <form className='flex justify-center'>
+      <form className='flex justify-center px-4 lg:px-0'>
         <div className='w-full'>
           <label className='text-start block font-montserrat text-2xl font-bold'>
             Choose one <span className='text-red-600'>*</span>
           </label>
-          <div className='mt-4 flex gap-4 items-center'>
+          <div className='mt-4 flex-col lg:flex-row flex gap-4 items-start lg:items-center'>
             {['Existing customer', 'Become a customer', 'Email us'].map(
               (label, i) => (
                 <label
