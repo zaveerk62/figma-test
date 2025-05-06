@@ -9,7 +9,7 @@ const Hero = () => {
         <img
         src={heroImg}
         alt='hero-image'
-        className='object-cover z-0 h-[400px]'
+        className='lg:size-full object-cover z-0 h-[400px]'
       />
           <div className='absolute z-10 flex flex-col gap-8 items-center justify-center'>
           <h1 className='font-lilita text-white text-5xl lg:text-7xl'>
