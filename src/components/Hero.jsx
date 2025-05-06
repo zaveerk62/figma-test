@@ -3,12 +3,12 @@ import heroImg from '../assets/hero-img.png';
 
 const Hero = () => {
   return (
-    <section className='py-8 lg:py-16'>
-      <div className='relative h-screen'>
+    <section className='py-8 lg:py-16 relative'>
+      <div className='relative'>
         <div className='container mx-auto flex flex-col gap-8 items-center justify-center text-center'>
         <img
         src={heroImg}
-        alt=''
+        alt='hero-image'
         className='w-full h-auto object-cover z-0'
       />
           <div className='absolute z-10 flex flex-col gap-8 items-center justify-center'>
