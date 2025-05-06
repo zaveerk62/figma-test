@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
               />
             </div>
             <h3 className='font-montserrat font-bold text-2xl'>Quality</h3>
-            <p className='font-montserrat lg:px-20 lg:w-[600px] text-lg'>
+            <p className='font-montserrat lg:px-20 xs:[300px] sm:w-[350px] lg:w-[600px] text-lg'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est in
               fugiat perferendis cupiditate adipisci non laboriosam praesentium
               eum quos debitis!
